@@ -1,5 +1,6 @@
 //    INTERFAZ REGISTRO DE USUARIO
 
+
 //    Pagina principal o login:
 
 //    Logo en la parte superior
@@ -27,12 +28,17 @@
 
 
 
-/* Signup:
-    Logo en la parte superior
-    Imagen de un hombre en el lateral izquierdo
-    Dos campos en el que meter el username y su password
-    Un unico boton que te da acceso a registrarte.
-*/    
+//    Signup:
+//    Logo en la parte superior
+
+//    Imagen de un hombre en el lateral izquierdo
+
+//    Dos campos en el que meter el username y su password
+
+//    Un unico boton: 
+
+//          Boton Signup que da acceso a registrarte.
+ 
 
 //  img/signup.jpg
 
