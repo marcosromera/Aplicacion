@@ -9,14 +9,15 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="4dp"
         android:src="@drawable/thunder"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/girl"
         android:layout_width="match_parent"
@@ -26,28 +27,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/till"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="@id/guide2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guide1"
         app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:startIconDrawable="@drawable/logousername"
 
-        >
+        app:startIconDrawable="@drawable/logousername">
+
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:alpha="0.6"
             android:background="@color/white"
-            android:hint="Username"
-            >
-        </EditText>
-
-
-
+            android:hint="Username"></EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -74,22 +73,21 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.2"
+        app:layout_constraintGuide_percent="0.3"
 
         />
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.8"
-        />
+        app:layout_constraintGuide_percent="0.7" />
 
     <Button
         android:id="@+id/botonmorado"
@@ -104,7 +102,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guide2"
         app:layout_constraintStart_toStartOf="@+id/guide1"
         app:layout_constraintTop_toBottomOf="@+id/pass"
-        app:layout_constraintVertical_bias="0.056">
+        app:layout_constraintVertical_bias="0.0">
 
     </Button>
 
@@ -119,13 +117,9 @@
         app:layout_constraintEnd_toStartOf="@+id/guide2"
         app:layout_constraintStart_toStartOf="@+id/guide1"
         app:layout_constraintTop_toBottomOf="@+id/pass"
-        app:layout_constraintVertical_bias="0.223">
+        app:layout_constraintVertical_bias="0.891">
 
     </Button>
-
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -94,7 +94,6 @@
         />
 
 
-
     <Button
         android:id="@+id/botonsinrelleno"
         style="@style/buttonoutlined"
@@ -104,12 +103,12 @@
         android:text="SIGNUP"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guide2"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guide1"
         app:layout_constraintTop_toBottomOf="@+id/pass"
-        app:layout_constraintVertical_bias="0.223">
+        app:layout_constraintVertical_bias="0.099">
 
     </Button>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
