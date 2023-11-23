@@ -87,6 +87,7 @@
 ![noexistenoppl.jpg](img%2Fnoexistenoppl.jpg)
 
 
+<<<<<<< HEAD
 //  PULL REQUEST A ALBERTO GARCIA
 
 //  Primero hacemos un fork de su repositorio y lo clonamos en nuestro projecto, en el que haremos una rama llamada rama_new.
@@ -112,5 +113,8 @@
 
 
 
+=======
+Linea añadida por Alberto García, tambien con una rama nueva creada.
+>>>>>>> 9ee179cca32e4b8350fc1934f59c04dddd5cf401
 
 
