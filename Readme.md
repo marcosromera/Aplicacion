@@ -87,3 +87,30 @@
 ![noexistenoppl.jpg](img%2Fnoexistenoppl.jpg)
 
 
+//  PULL REQUEST A ALBERTO GARCIA
+
+//  Primero hacemos un fork de su repositorio y lo clonamos en nuestro projecto, en el que haremos una rama llamada rama_new.
+//  en el Read.me añadimos una linea de texto:
+
+![creamos una rama.jpg](img%2Fcreamos%20una%20rama.jpg)
+
+// hacemos un commit. un push origin y por último un pull request:
+
+![plrequest2.jpg](img%2Fplrequest2.jpg)
+
+//  Nuestro compañero al añadir modificaciones en nuestro proyecto nos llegara un correo notificandonos:
+
+![correoplrequest.jpg](img%2Fcorreoplrequest.jpg)
+
+//  despues haremos un merge y un branch -d para eliminar la rama: rama_new
+
+![captmergeplrequest.jpg](img%2Fcaptmergeplrequest.jpg)
+
+//  Por ultimo, comprobamos que el pull request haya funcionado correctamente:
+
+![captfinalplrequest.jpg](img%2Fcaptfinalplrequest.jpg)
+
+
+
+
+
