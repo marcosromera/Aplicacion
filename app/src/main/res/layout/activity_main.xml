@@ -27,7 +27,7 @@
         android:fontFamily="@font/arbutus"
         android:gravity="center"
         android:text="Valora la app!"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textColorHint="#3F51B5"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,16 +36,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.661" />
 
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827" />
 
     <TextView
         android:id="@+id/txt"
@@ -54,7 +44,7 @@
         android:fontFamily="@font/arbutus"
         android:gravity="center"
         android:text="Valora la app!"
-        android:textColor="#9808FF"
+        android:textColor="#BA85FB"
         android:textColorHint="#3F51B5"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -63,6 +53,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.664" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/RatingBarPurple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

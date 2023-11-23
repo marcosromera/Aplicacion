@@ -71,7 +71,7 @@
 
 //  la valoracion de la app se hace en una barra de estrellas que se van rellenando de color morado:
 
-![estrellas.jpg](img%2Festrellas.jpg)
+![barraestrellasalien.jpg](img%2Fbarraestrellasalien.jpg)
 
 //  Por otro lado se ha añadido otra activity llamada Nopeople:
 
