@@ -4,18 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#7251FD0C"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/alienMain"
-        android:layout_width="265dp"
-        android:layout_height="249dp"
+        android:layout_width="291dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="291dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:text="Valora la app!"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#3F51B5"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.074">
+        app:layout_constraintVertical_bias="0.661" />
 
-    </ImageView>
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:text="Valora la app!"
+        android:textColor="#9808FF"
+        android:textColorHint="#3F51B5"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

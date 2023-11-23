@@ -26,7 +26,7 @@ public class Nopeople extends AppCompatActivity {
         WebSettings webSettings=miVisorWeb.getSettings();
         webSettings.setLoadWithOverviewMode(true);
         webSettings.setUseWideViewPort(true);
-        miVisorWeb.loadUrl("https://thispersonadoesnotexit.com");
+        miVisorWeb.loadUrl("https://thispersondoesnotexist.com/");
     }
 
     protected SwipeRefreshLayout.OnRefreshListener
