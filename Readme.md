@@ -48,7 +48,9 @@
 
 //  img/landsign.jpg
 ![landsign.jpg](img%2Flandsign.jpg)
- 
+
+
+//  SPLASH PARA CARGAR LA APLICACION
  
 //  Pagina inicial:
 ![foto1.jpg](img%2Ffoto1.jpg)
