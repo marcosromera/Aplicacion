@@ -33,8 +33,8 @@ public class Splash extends AppCompatActivity {
     ImageView fondo = findViewById(R.id.fondo);
 
        Glide.with(this)
-                .load("https://www.tuexperto.com/wp-content/uploads/2023/01/50-fondos-de-pantalla-para-movil-de-paisajes-y-tematica-alegre-11.jpg")
-                .transition(DrawableTransitionOptions.withCrossFade(100))
+                .load("https://img3.wallspic.com/previews/2/4/1/1/7/171142/171142-la_vida_extraterrestre-el_minimalismo-arte-ambiente-edificio-500x.jpg")
+                .transition(DrawableTransitionOptions.withCrossFade(50))
                 .centerCrop()
                //.diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_200)))
