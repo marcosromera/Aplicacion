@@ -119,8 +119,9 @@
     <Button
         android:id="@+id/botonsinrelleno"
         style="@style/buttonoutlined"
-        android:layout_width="249dp"
-        android:layout_height="60dp"
+        android:layout_width="212dp"
+        android:layout_height="44dp"
+        android:autoSizeTextType="uniform"
         android:onClick="openSignup"
         android:text="SIGNUP"
         app:layout_constraintBottom_toBottomOf="parent"
